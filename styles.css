@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+
+@font-face {
+    font-family: 'Spartan' ;
+    src: url(assets/Spartan-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    width: 100vh;
+    height: 100vh;
+    margin: 0%;
+    background-image: url(assets/read_news.jpg);
+    background-repeat: no-repeat;
+    background-size: 150vh 100vh;
+    background-position: bottom right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.background{
+    width: 95vh;
+    height: 100vh;
+    background-color: #121214;
+    position: absolute;
+}
+.logo{
+    width: 50vh;
+    height: 15vh;
+    position: absolute;
+    background-image: url(assets/logo.svg);
+    background-repeat: no-repeat;
+    background-size: 50vh 15vh;
+    margin-top: 3vh;
+    margin-left: 5vh;  
+}
+.texto{
+    position: absolute;
+    margin-left: 5vh;
+    margin-top: 25vh;
+}
+h1{
+    color: #08C05E;
+    font-family: 'Work Sans';
+    font-size: 3vh;
+}
+h2{
+    color: #FFFF;
+    font-size: 117%;
+}
+.texto p{
+    color:#FFFF;
+    font-family: 'Spartan';
+}
+.interactive{
+    position: absolute;
+    width: 110vh;
+    height: 25vh;
+    margin-top: 50vh;
+    margin-left: 5vh;
+}
+.interactive label{
+    font-family: 'Spartan';
+    color: #A8A8A8;
+    letter-spacing: 0.2vh;
+    font-weight: bolder;
+}
+.interactive input{
+    width: 100vh;
+    height: 5vh;
+    font-size: 2vh;
+    padding-left: 2vh;
+    border: none;
+}
+.retangulo{
+    position: absolute;
+    width: 0.7vh;
+    height: 5.2vh;
+    background-color: #08C05E;
+}
+form .button{
+    position: absolute;
+    width: 6vh;
+    height: 5.2vh;
+    margin: 0vh;
+    background-color: #08C05E;
+    background-image: url(assets/button.png);
+    background-size: 6vh;
+    border: 0vh;
+}
+form .button:hover{
+    filter: brightness(70%);
+    transition-delay: 1ms; 
+}
+.hyperlink{
+    margin-top: 8vh;
+    font-weight: bolder;
+}
+a{
+    font-family: 'Spartan';
+    color: #8257E5;
+    text-decoration: none;  
+}
+a:hover{
+    opacity: 0.5;
+}
+.seta{
+    position: absolute;
+    width: 4vh;
+    height: 4vh;
+    margin-left: 1vh;
+    margin-top: -0.8vh;
+}
